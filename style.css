@@ -1,0 +1,539 @@
+body{
+   margin: 0;
+   position: relative;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    position: absolute;
+    width: 100%;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    margin-bottom: 1px;
+}
+ 
+.left{
+    width: 146px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: -30px;
+    
+}
+
+.vector1{
+    height: 0px;
+    width: 22px;
+    border-radius: 0px;
+    position: absolute;
+    left: 3%;
+    background-color: #000000;
+    top: 35%;
+    bottom: 75%;
+    border: 1.5px solid #000000;
+}
+
+.vector2{
+    height: 0px;
+    width: 22px;
+    border-radius: 0px;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    bottom: 50%;
+    border: 1.5px solid #000000;
+    background-color: #000000;
+}
+
+.vector3{
+    height: 0px;
+    width: 22px;
+    border-radius: 0px;
+    position: absolute;
+    left: 3%;
+    top: 65%;
+    bottom: 25%;
+    border: 1.5px solid #000000;
+    background-color: #000000;
+}
+
+.logo{
+    height: 20px;
+    width: 90px;
+    left: 80px;
+    top: 18px;
+    border-radius: 0px;
+    position: absolute;
+    left: 8%;
+    top: 35%;
+    background: url(/img/youtube\ 1.png);
+}
+
+.center{
+    height: 40px;
+    width: 404px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    border: 1px solid #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: relative;
+    left: 400px;
+    box-sizing: border-box;
+   background-color: #b8b5b5;
+   
+}
+
+.retangulo1{
+    background-color: #ffffff;
+    width: 345px;
+    height: 36px;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;;
+    left: 0%;
+    border: 1px solid #cccccc;
+}
+
+.retangulo2{
+    box-sizing: border-box;
+    position: relative;
+    width: 55px;
+    height: 38px;
+    left: 347px;
+    top: 0px;
+    background-color: #ffffff;
+    border: 1px solid #7a7a7a;
+}
+
+.vectorbarra{
+    background: url(/img/search.svg);
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.right{
+    height: 34px;
+    width: 130px;
+    top: 11px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    position: absolute;
+    left: 1200px;
+   
+}
+
+.iconvideo{
+    background: url(/img/video.svg);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 10%;
+}
+.iconbell{
+    background: url(/img/bell.svg);
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 40%;
+}
+
+.iconavatar{
+    background: url(/img/Avatar.svg);
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 5%;
+}
+
+main{
+    margin-top: 1;
+    position: relative;
+    top: 6%;
+    left: 0;
+    display: grid;
+    grid-template: "side man" 800px / 200px 3fr;
+}
+aside{
+    
+    grid-area: side;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10%;
+    
+}
+.inicio{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+    
+}
+
+.inicio:hover{
+    background-color: red;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.exp{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+}
+
+.exp:hover{
+    background-color: red;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.insc{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+}
+
+.insc:hover{
+    background-color: red;
+    border-radius: 25px;
+    width: 110px;
+}
+
+.music{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+}
+
+.music:hover{
+    background-color: red;
+    border-radius: 25px;
+    width: 150px;
+}
+
+.like{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+}
+
+.like:hover{
+    background-color: red;
+    border-radius: 25px;
+    width: 180px;
+}
+
+.tarde{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+}
+
+.tarde:hover{
+    background-color: red;
+    border-radius: 25px;
+    width: 180px;
+}
+
+.down{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+}
+
+.down:hover{
+    background-color: red;
+    border-radius: 25px;
+    width: 120px;
+}
+
+.filme{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+}
+
+.filme:hover{
+    background-color: red;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.aprender{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+}
+
+.aprender:hover{
+    background-color: red;
+    border-radius: 25px;
+    width: 120px;
+}
+
+.esporte{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+}
+
+.esporte:hover{
+    background-color: red;
+    border-radius: 25px;
+    width: 120px;
+}
+
+.list{
+    display: grid;
+    border-left: solid 1px black;
+    grid-area: man;
+    grid-template-columns: [coluna-a] 1fr [coluna-b] 1fr [coluna-c] 1fr [coluna-d] 1fr ;
+    grid-template-rows: [linha-a] 1fr [linha-b] 1fr [linha-c] 1fr;
+}
+
+.va{
+    display: flex;
+    grid-column: coluna-a;
+    grid-row: linha-a;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.vb{
+    display: flex;
+    grid-column: coluna-b;
+    grid-row: linha-a;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.vc{
+    display: flex;
+    grid-column: coluna-c;
+    grid-row: linha-a;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.vd{
+    display: flex;
+    grid-column: coluna-d;
+    grid-row: linha-a;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.ve{
+    display: flex;
+    grid-column: coluna-a;
+    grid-row: linha-b;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+.vf{
+    display: flex;
+    grid-column: coluna-b;
+    grid-row: linha-b;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.vg{
+    display: flex;
+    grid-column: coluna-c;
+    grid-row: linha-b;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.vh{
+    display: flex;
+    grid-column: coluna-d;
+    grid-row: linha-b;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.vi{
+    display: flex;
+    grid-column: coluna-a;
+    grid-row: linha-c;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.vj{
+    display: flex;
+    grid-column: coluna-b;
+    grid-row: linha-c;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.vk{
+    display: flex;
+    grid-column: coluna-c;
+    grid-row: linha-c;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
+
+.vl{
+    display: flex;
+    grid-column: coluna-d;
+    grid-row: linha-c;
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+}
